@@ -1,0 +1,11 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.hugo_build.lock
+public
+_gen
+public/
+resources/
+themes/
