@@ -1,38 +1,35 @@
 baseURL: https://dasha.github.io # todo: change site url.
-title: Eternity # todo: change site name.
+title: Dasha
 defaultContentLanguage: 'en'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
 
 params:
-  image: /images/banner.png
+#  image: /images/banner.png
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Lovely Author # todo: set your full name.
+  author: Yama Stellio # todo: set your full name.
   dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
       desktop:
-        nature: 4
+        mask: 4
         archive: 6
-        people: 2
+        art: 2
         default: 3
       mobile:
         default: 2
+        art: 1
         archive: 3
-        people: 1
   socials:
-    # todo: change these links.
+    # todo: use your links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:eternity@bora.sh'
-      landing: true
-    - icon: 'fab fa-github fa-lg'
-      url: 'https://github.com/boratanrikulu/eternity'
+      url: 'mailto:dasha@tmp.tmp'
       landing: true
     - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.bora.sh/eternity'
+      url: 'https://instagram.dasha.tmp.tmp'
     - icon: 'fab fa-linkedin-in fa-lg'
-      url: 'https://linkedin.bora.sh/in/eternity'
+      url: 'https://linkedin.dasha.tmp.tmp'
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
@@ -40,7 +37,7 @@ params:
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   plausible: '' # todo: set your plausible id.
   disableRadius: false
-  moveIt: false  # Moves Title and Meta info down, only visible when scroll.
+  moveIt: false  # Moves Title and Meta info down, only visible if scrolled.
   disableAlwaysResize: false
 
 markup:
@@ -60,15 +57,18 @@ menu:
     - name: work
       url: /work/
       weight: 1
-    - name: people
-      url: /tags/people/
+    - name: art
+      url: /tags/art/
       weight: 2
-    - name: nature
-      url: /tags/nature/
+    - name: mask
+      url: /tags/mask/
       weight: 3
+    - name: make up
+      url: /tags/makeup/
+      weight: 4
     - name: archive
       url: /tags/archive/
-      weight: 4
+      weight: 5
     - name: about
       url: /about/
-      weight: 5
+      weight: 6
