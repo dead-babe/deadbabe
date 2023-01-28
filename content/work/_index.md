@@ -3,7 +3,7 @@ title: work
 url: work
 ---
 
-<div align="center">
+<div style="text-align: center;">
 	<p>
         Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel.
 	</p>
