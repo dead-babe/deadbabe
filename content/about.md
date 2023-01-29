@@ -1,6 +1,6 @@
 ---
 images:
-- /images/about_small_2.png
+- /images/about.png
 title: about
 url: about
 hideTitle: true
