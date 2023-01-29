@@ -1,0 +1,74 @@
+baseURL: https://dasha.github.io # todo: change site url.
+title: Dasha
+defaultContentLanguage: 'en'
+theme: eternity
+googleAnalytics: '' # todo: set your analytics id.
+
+params:
+#  image: /images/banner.png
+  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  copyright: All rights reserved. # todo: set your copyright type.
+  author: Yama Stellio # todo: set your full name.
+  dontShowSource: false # please, do not do this :)
+  portfolio:
+    columns:
+      desktop:
+        mask: 4
+        archive: 6
+        art: 2
+        default: 3
+      mobile:
+        default: 2
+        art: 1
+        archive: 3
+  socials:
+    # todo: use your links.
+    - icon: 'far fa-envelope fa-lg'
+      url: 'mailto:dasha@tmp.tmp'
+      landing: true
+    - icon: 'fab fa-instagram fa-lg'
+      url: 'https://instagram.dasha.tmp.tmp'
+    - icon: 'fab fa-linkedin-in fa-lg'
+      url: 'https://linkedin.dasha.tmp.tmp'
+  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  specialPages:
+    - work
+    - archive
+  bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
+  plausible: '' # todo: set your plausible id.
+  disableRadius: false
+  moveIt: false  # Moves Title and Meta info down, only visible if scrolled.
+  disableAlwaysResize: false
+
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    renderer:
+      unsafe: true
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  work: ":filename/"
+
+menu:
+  main:
+    - name: work
+      url: /work/
+      weight: 1
+    - name: art
+      url: /tags/art/
+      weight: 2
+    - name: mask
+      url: /tags/mask/
+      weight: 3
+    - name: make up
+      url: /tags/makeup/
+      weight: 4
+    - name: archive
+      url: /tags/archive/
+      weight: 5
+    - name: about
+      url: /about/
+      weight: 6
