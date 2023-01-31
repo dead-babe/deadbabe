@@ -6,8 +6,8 @@ title: bunny 6
 date: 2022-07-23
 tags:
 - archive # all posts
-- makeup
-- mask
+- academic
+- digital
 ---
 
 ## Markdown

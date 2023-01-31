@@ -1,11 +1,13 @@
 ---
-weight: 17
+weight: 2
 images:
-- https://source.unsplash.com/random?nature&30352
-title: mask 17
+- https://source.unsplash.com/random?nature&30426
+title: digital 2
 date: 2022-07-23
 tags:
-- mask
+- work # homepage
+- archive # all posts
+- digital
 ---
 
 ## Markdown

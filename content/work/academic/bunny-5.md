@@ -1,15 +1,13 @@
 ---
 weight: 4
 images:
-- https://source.unsplash.com/random?nature&11225
-- https://source.unsplash.com/random?nature&32532
-multipleColumn: false
-title: mask 4
+- https://source.unsplash.com/random?bunny&5646
+title: bunny 5
 date: 2022-07-23
 tags:
-- work # homepage
 - archive # all posts
-- mask
+- academic
+- digital
 ---
 
 ## Markdown
@@ -28,4 +26,4 @@ Some list
 
 1. A b c
 2. A b c
-3. A b c
+3. A b c 

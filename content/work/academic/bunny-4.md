@@ -1,12 +1,14 @@
 ---
-weight: 15
+weight: -2
 images:
-- https://source.unsplash.com/random?nature&19629
-title: mask 15
+- https://source.unsplash.com/random?bunny&27676
+title: bunny 4
 date: 2022-07-23
 tags:
+- work # homepage
 - archive # all posts
-- mask
+- academic
+- digital
 ---
 
 ## Markdown

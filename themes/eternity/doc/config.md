@@ -40,7 +40,7 @@ params:
   portfolio:
     columns:
       desktop:
-        mask: 4
+        digital: 4
         archive: 6
         art: 2
         default: 3
@@ -119,13 +119,16 @@ menu:
     - name: art
       url: /tags/art/
       weight: 2
-    - name: mask
-      url: /tags/mask/
-      weight: 3
+    - name: academic
+      url: /tags/academic/
+      weight: 3   
+    - name: digital
+      url: /tags/digital/
+      weight: 4
     - name: archive
       url: /tags/archive/
-      weight: 4
+      weight: 5
     - name: about
       url: /about/
-      weight: 5
+      weight: 6
 ```

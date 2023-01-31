@@ -16,14 +16,11 @@ hideDate: true
 
 ### About me
 
-- Malen
-- Zeichnen 
-- **Masken** gestalten und schminken
-- Time Management 
-- Fast learning 
-- Kommunizieren 
-- Russisch 
-- Englisch
+- Drawing
+- Sketching
+- Digital art
+- English
+- Russian 
 
 
 ### Contact

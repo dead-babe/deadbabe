@@ -147,7 +147,7 @@ featuredTags:
   - title: art
     image: https://source.unsplash.com/random?people&1649630128
     url: /tags/art/
-  - title: mask
+  - title: academic
     image: https://source.unsplash.com/random?nature&17346933
-    url: /tags/mask/
+    url: /tags/academic/
 ```

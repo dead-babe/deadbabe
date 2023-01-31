@@ -8,12 +8,12 @@ params:
 #  image: /images/banner.png
   subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
   copyright: All rights reserved. # todo: set your copyright type.
-  author: Yama Stellio # todo: set your full name.
+  author: Dead Babe
   dontShowSource: false # please, do not do this :)
   portfolio:
     columns:
       desktop:
-        mask: 4
+        academic: 4
         archive: 6
         art: 2
         default: 3
@@ -60,11 +60,11 @@ menu:
     - name: art
       url: /tags/art/
       weight: 2
-    - name: mask
-      url: /tags/mask/
+    - name: academic
+      url: /tags/academic/
       weight: 3
-    - name: make up
-      url: /tags/makeup/
+    - name: digital
+      url: /tags/digital/
       weight: 4
     - name: archive
       url: /tags/archive/
