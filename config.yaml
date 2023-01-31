@@ -1,5 +1,5 @@
-baseURL: https://dasha.github.io # todo: change site url.
-title: Dasha
+baseURL: https://DeadBabe.github.io # todo: change site url.
+title: DeadBabe
 defaultContentLanguage: 'en'
 theme: eternity
 googleAnalytics: '' # todo: set your analytics id.
@@ -24,12 +24,12 @@ params:
   socials:
     # todo: use your links.
     - icon: 'far fa-envelope fa-lg'
-      url: 'mailto:dasha@tmp.tmp'
+      url: 'mailto:DeadBabe@tmp.tmp'
       landing: true
     - icon: 'fab fa-instagram fa-lg'
-      url: 'https://instagram.dasha.tmp.tmp'
+      url: 'https://instagram.DeadBabe.tmp.tmp'
     - icon: 'fab fa-linkedin-in fa-lg'
-      url: 'https://linkedin.dasha.tmp.tmp'
+      url: 'https://linkedin.DeadBabe.tmp.tmp'
   homepage: "/work" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
